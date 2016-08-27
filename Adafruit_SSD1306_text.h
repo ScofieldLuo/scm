@@ -21,7 +21,7 @@ All text above, and the splash screen must be included in any redistribution
 
 class Adafruit_SSD1306_text : public Adafruit_GFX {
  public:
-  void init();
+  void _init();
   void _scm(String s);
 
  private:
